@@ -1,6 +1,6 @@
 node_modules
 package-lock.json
 yarn.lock
-./gatsby-node.js
-./config.js
-*.map
+/gatsby-node.js
+/config.js
+/*.map
