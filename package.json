@@ -1,0 +1,25 @@
+{
+  "name": "gatsby-source-mycustomers",
+  "version": "1.0.0",
+  "description": "import list customers from an API",
+  "main": "gatsby-node.js",
+  "scripts": {
+    "build": "babel src --out-dir ./ --source-maps",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "author": "saphidev@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.8.7",
+    "node-fetch": "^2.6.0"
+  },
+  "repository": "https://github.com/apotox/gatsby-source-mycustomers"
+}

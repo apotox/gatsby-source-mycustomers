@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - node
+deploy:
+  skip-cleanup: true
+  provider: npm
+  email: saphidev@gmail.com
+  api_key:
+    secure: ertert
+branches:
+  only:
+    - master
