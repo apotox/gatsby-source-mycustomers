@@ -9,7 +9,7 @@ class MyCustomers {
 
 describe("API MyCustomers", () => {
     test("Connect to the Server", () => {
-        jest.mock('node-fetch');
+        //jest.mock('node-fetch');
         return MyCustomers.check().then(result => expect(result.ok).toBe(true))
     })
 });
