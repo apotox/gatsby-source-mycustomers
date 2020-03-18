@@ -54,7 +54,7 @@ import list customers from an API
     }
   `).then(result => {
 
-        let alledges = result.data.allSaphy.edges
+        let alledges = result.data.allCustomers.edges
         alledges.forEach(({ node }) => {
             createPage({
                 path: _.kebabCase(node.name),
